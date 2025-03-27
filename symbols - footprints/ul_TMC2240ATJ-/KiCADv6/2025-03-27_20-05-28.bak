@@ -508,7 +508,7 @@
 				)
 			)
 			(pin input line
-				(at 55.88 -24.13 180)
+				(at 55.88 -17.78 180)
 				(length 7.62)
 				(name "ENCA"
 					(effects
@@ -526,7 +526,7 @@
 				)
 			)
 			(pin input line
-				(at 55.88 -26.67 180)
+				(at 55.88 -20.32 180)
 				(length 7.62)
 				(name "ENCB"
 					(effects
@@ -544,7 +544,7 @@
 				)
 			)
 			(pin input line
-				(at 55.88 -29.21 180)
+				(at 55.88 -22.86 180)
 				(length 7.62)
 				(name "ENCN"
 					(effects
@@ -562,7 +562,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 55.88 -35.56 180)
+				(at 55.88 -31.75 180)
 				(length 7.62)
 				(name "DIAG1/SW"
 					(effects
