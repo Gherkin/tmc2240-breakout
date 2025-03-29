@@ -1,0 +1,3 @@
+[submodule "kicad-automation"]
+	path = kicad-automation
+	url = git@github.com:Gherkin/kicad-automation.git
