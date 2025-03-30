@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "21-0140_T3255+5C_TRI"
-			(at 0 0 0)
+			(at -30.734 -60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "TMC2240ATJ+"
-			(at 0 0 0)
+			(at -35.814 -63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,7 +83,7 @@
 		(symbol "TMC2240ATJ+_1_1"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -48.26)
+					(xy 7.62 5.08) (xy 7.62 -73.66)
 				)
 				(stroke
 					(width 0.127)
@@ -95,7 +95,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -48.26) (xy 48.26 -48.26)
+					(xy 7.62 -73.66) (xy 48.26 -73.66)
 				)
 				(stroke
 					(width 0.127)
@@ -119,7 +119,7 @@
 			)
 			(polyline
 				(pts
-					(xy 48.26 -48.26) (xy 48.26 5.08)
+					(xy 48.26 -73.66) (xy 48.26 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -130,61 +130,7 @@
 				)
 			)
 			(pin input line
-				(at 0 0 0)
-				(length 7.62)
-				(name "CLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(name "DIR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(name "DRV_ENN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -17.78 0)
+				(at 0 2.54 0)
 				(length 7.62)
 				(name "SCK/AD1"
 					(effects
@@ -202,7 +148,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -20.32 0)
+				(at 0 0 0)
 				(length 7.62)
 				(name "SDI/AD0"
 					(effects
@@ -220,7 +166,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -22.86 0)
+				(at 0 -2.54 0)
 				(length 7.62)
 				(name "SDO/NAO"
 					(effects
@@ -238,7 +184,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -25.4 0)
+				(at 0 -5.08 0)
 				(length 7.62)
 				(name "CSN/AD2"
 					(effects
@@ -256,7 +202,79 @@
 				)
 			)
 			(pin input line
-				(at 0 -27.94 0)
+				(at 0 -10.16 0)
+				(length 7.62)
+				(name "STEP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.7 0)
+				(length 7.62)
+				(name "DIR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -30.48 0)
+				(length 7.62)
+				(name "DRV_ENN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 -33.02 0)
+				(length 7.62)
+				(name "OV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -35.56 0)
 				(length 7.62)
 				(name "UART_EN"
 					(effects
@@ -274,61 +292,61 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -30.48 0)
-				(length 7.62)
-				(name "AIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -33.02 0)
-				(length 7.62)
-				(name "CPI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -35.56 0)
-				(length 7.62)
-				(name "CPO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 0 -38.1 0)
+				(length 7.62)
+				(name "SLEEPN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 -62.23 0)
+				(length 7.62)
+				(name "DIAG0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -64.77 0)
+				(length 7.62)
+				(name "DIAG1/SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -71.12 0)
 				(length 7.62)
 				(name "IREF"
 					(effects
@@ -346,97 +364,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -40.64 0)
-				(length 7.62)
-				(name "SLEEPN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -43.18 0)
-				(length 7.62)
-				(name "VCP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -45.72 0)
-				(length 7.62)
-				(name "STEP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
 				(at 55.88 2.54 180)
-				(length 7.62)
-				(name "OV"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 55.88 0 180)
-				(length 7.62)
-				(name "DIAG0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 55.88 -5.08 180)
 				(length 7.62)
 				(name "OUT1A"
 					(effects
@@ -454,7 +382,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 55.88 -7.62 180)
+				(at 55.88 0 180)
 				(length 7.62)
 				(name "OUT1B"
 					(effects
@@ -472,7 +400,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 55.88 -10.16 180)
+				(at 55.88 -2.54 180)
 				(length 7.62)
 				(name "OUT2A"
 					(effects
@@ -490,7 +418,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 55.88 -12.7 180)
+				(at 55.88 -5.08 180)
 				(length 7.62)
 				(name "OUT2B"
 					(effects
@@ -508,7 +436,7 @@
 				)
 			)
 			(pin input line
-				(at 55.88 -24.13 180)
+				(at 55.88 -15.24 180)
 				(length 7.62)
 				(name "ENCA"
 					(effects
@@ -526,7 +454,7 @@
 				)
 			)
 			(pin input line
-				(at 55.88 -26.67 180)
+				(at 55.88 -17.78 180)
 				(length 7.62)
 				(name "ENCB"
 					(effects
@@ -544,7 +472,7 @@
 				)
 			)
 			(pin input line
-				(at 55.88 -29.21 180)
+				(at 55.88 -20.32 180)
 				(length 7.62)
 				(name "ENCN"
 					(effects
@@ -561,17 +489,89 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 55.88 -35.56 180)
+			(pin unspecified line
+				(at 55.88 -31.75 180)
 				(length 7.62)
-				(name "DIAG1/SW"
+				(name "AIN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 55.88 -43.18 180)
+				(length 7.62)
+				(name "VCP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 55.88 -48.26 180)
+				(length 7.62)
+				(name "CPI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 55.88 -50.8 180)
+				(length 7.62)
+				(name "CPO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 55.88 -57.15 180)
+				(length 7.62)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
 					(effects
 						(font
 							(size 1.27 1.27)
