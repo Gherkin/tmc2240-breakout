@@ -4456,6 +4456,18 @@
 		)
 	)
 	(rectangle
+		(start 12.7 176.53)
+		(end 243.84 284.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0ac4eab7-a37b-4be1-8e80-3fc0cfe94041)
+	)
+	(rectangle
 		(start 298.45 12.7)
 		(end 407.67 95.25)
 		(stroke
@@ -4526,6 +4538,16 @@
 		)
 		(uuid "40df9e8d-a4cb-4a5d-b6c2-2ebd833562a1")
 	)
+	(text "TODO: this mosfet should probably be higher current"
+		(exclude_from_sim no)
+		(at 379.222 138.176 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41e0df65-2713-4f6d-a152-fa9cb6bb28ab")
+	)
 	(text "1.8 V LDO"
 		(exclude_from_sim no)
 		(at 301.752 100.33 0)
@@ -4549,6 +4571,16 @@
 			)
 		)
 		(uuid "b01c2d09-5b93-4ee7-8ead-9c2801eb9a6c")
+	)
+	(text "TODO: add separate footprint for straight up JST-XH and support both"
+		(exclude_from_sim no)
+		(at 263.652 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b1c1de7a-f365-46ac-8aec-5f29e44acc9b")
 	)
 	(text "TODO: set OV breaking resistor"
 		(exclude_from_sim no)
@@ -4582,6 +4614,28 @@
 			)
 		)
 		(uuid "bdb62a56-0d26-48c8-be1f-c2536debd3fd")
+	)
+	(text "TODO: GND in motor conn?"
+		(exclude_from_sim no)
+		(at 264.16 32.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c78238ac-b43b-4460-a66d-ee008347752f")
+	)
+	(text "Decoupling caps"
+		(exclude_from_sim no)
+		(at 62.738 194.056 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "e1dd33e2-d5b0-4bb7-84a1-61d43e731174")
 	)
 	(text "CAD Note:\nIREF_R2 & IREF_R3\nIn silkscreen"
 		(exclude_from_sim no)
@@ -7805,7 +7859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "2N7002"
 			(at 341.63 180.3399 0)
 			(effects
 				(font
@@ -7868,6 +7922,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8545"
+			(at 335.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c77c1436-8107-47cb-868a-d38c9cbf4d98")
 		)
@@ -7911,7 +7973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 240.03 96.8248 0)
 			(effects
 				(font
@@ -7936,6 +7998,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1532"
+			(at 236.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8008,6 +8078,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23352"
+			(at 370.84 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a925f5df-7c8c-41d4-8adc-1584ebc9cb73")
 		)
@@ -8028,9 +8106,9 @@
 		(at 162.56 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "050c15a4-eaac-4892-aa3a-467b2d7e68ec")
 		(property "Reference" "TP9"
 			(at 154.432 58.674 90)
@@ -8076,6 +8154,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 162.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "88bde8a3-6f7a-4dd4-8d47-5005ccf5fccf")
 		)
@@ -8115,7 +8201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 103.8352 259.08 0)
 			(effects
 				(font
@@ -8140,6 +8226,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 102.87 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8228,9 +8322,9 @@
 		(at 162.56 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0b899062-3f49-45b5-8505-470e085e95fc")
 		(property "Reference" "TP5"
 			(at 154.432 45.974 90)
@@ -8274,6 +8368,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 162.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8407,6 +8509,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 383.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8611,6 +8721,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 350.52 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a8c003a3-3be8-41d4-841a-64532dcb41bd")
 		)
@@ -8719,7 +8837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 117.8052 223.52 0)
 			(effects
 				(font
@@ -8746,6 +8864,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 116.84 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "80a34337-44a9-4df0-86cd-11b7bbd00acc")
 		)
@@ -8766,9 +8892,9 @@
 		(at 162.56 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1a89de7b-4edc-47a0-8fcc-e99b747c688b")
 		(property "Reference" "TP12"
 			(at 154.432 81.534 90)
@@ -8814,6 +8940,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ea0ab7e-9f2b-4439-87fd-a4965d15799e")
 		)
@@ -8854,7 +8988,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 337.82 167.64 0)
 			(effects
 				(font
@@ -8890,6 +9024,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C84256"
+			(at 337.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ad2917e-2e8e-4311-8814-870648a47126")
 		)
@@ -8911,7 +9053,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1bfbe0bb-c1c4-4051-aa42-ff608d49c50d")
@@ -8959,6 +9101,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C7429641"
+			(at 351.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9097,6 +9247,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23352"
+			(at 101.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f627a113-ca7b-4c25-b3f2-ff30836f772d")
 		)
@@ -9119,7 +9277,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1f5ac669-01f5-4946-91c5-c54ed34bd7de")
 		(property "Reference" "H1"
@@ -9140,7 +9298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 24.13 128.27 0)
 			(effects
 				(font
@@ -9165,6 +9323,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 24.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -9230,6 +9396,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23352"
+			(at 393.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "abf4a31b-cb6c-48b2-8a57-e5ece87337fe")
 		)
@@ -9272,7 +9446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 89.8652 259.08 0)
 			(effects
 				(font
@@ -9297,6 +9471,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 88.9 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9332,7 +9514,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF 6.3V"
+		(property "Value" "2.2uF 16V"
 			(at 117.602 240.284 0)
 			(effects
 				(font
@@ -9341,7 +9523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 117.8052 241.3 0)
 			(effects
 				(font
@@ -9366,6 +9548,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C23630"
+			(at 116.84 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9468,7 +9658,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "2N7002"
 			(at 372.11 186.6899 0)
 			(effects
 				(font
@@ -9531,6 +9721,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8545"
+			(at 365.76 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "55017b71-6a2c-4618-bd7f-0411f0a563af")
 		)
@@ -9576,7 +9774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 285.4452 133.35 0)
 			(effects
 				(font
@@ -9601,6 +9799,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 284.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9671,6 +9877,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 337.82 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9772,7 +9986,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "2N7002"
 			(at 366.776 68.072 0)
 			(effects
 				(font
@@ -9833,6 +10047,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C8545"
+			(at 377.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9905,6 +10127,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 46.99 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10059,9 +10289,9 @@
 		(at 162.56 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "38c7f548-064f-453d-abe6-fe73ac983533")
 		(property "Reference" "TP7"
 			(at 154.432 51.054 90)
@@ -10105,6 +10335,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 162.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10172,6 +10410,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C25530"
+			(at 224.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10310,6 +10556,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23352"
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f6a2d2d-2c4f-4bbe-ae2f-130f269b897c")
 		)
@@ -10418,7 +10672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 75.8952 259.08 0)
 			(effects
 				(font
@@ -10443,6 +10697,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 74.93 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10515,6 +10777,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23352"
+			(at 379.73 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7cbde66f-9502-4f35-9c21-82fbdfdd5a39")
 		)
@@ -10535,9 +10805,9 @@
 		(at 162.56 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3b6ef2bf-6f72-4189-964f-cea6c83ca156")
 		(property "Reference" "TP14"
 			(at 154.432 86.614 90)
@@ -10581,6 +10851,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10745,7 +11023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "2N7002"
 			(at 380.238 59.436 0)
 			(effects
 				(font
@@ -10806,6 +11084,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C8545"
+			(at 391.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10943,6 +11229,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5160921"
+			(at 273.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11153,6 +11447,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23352"
+			(at 365.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a7fdab79-3973-4c2b-a9ba-407e61b94643")
 		)
@@ -11355,6 +11657,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23352"
+			(at 110.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aec6af72-65d1-4c1b-b21a-49595ea009a6")
 		)
@@ -11376,9 +11686,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4badd360-a3f9-4c52-9fe6-18b3dd568bc0")
 		(property "Reference" "TP19"
 			(at 328.168 115.824 90)
@@ -11422,6 +11732,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 320.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11557,6 +11875,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23352"
+			(at 384.81 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9092dca2-c703-42c3-942b-f418ba8522d8")
 		)
@@ -11591,7 +11917,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "2N7002"
 			(at 321.31 186.6899 0)
 			(effects
 				(font
@@ -11652,6 +11978,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C8545"
+			(at 314.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11766,7 +12100,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 388.62 167.64 0)
 			(effects
 				(font
@@ -11802,6 +12136,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C84256"
+			(at 388.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8108f72c-2328-4f65-8039-b576b3aacfc6")
 		)
@@ -11822,9 +12164,9 @@
 		(at 162.56 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "51a4fbc9-dd2d-464f-8d1b-d341dc6741bd")
 		(property "Reference" "TP6"
 			(at 154.432 48.514 90)
@@ -11868,6 +12210,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11937,6 +12287,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25530"
+			(at 242.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a759efd1-8a67-470b-8467-d6b150740575")
 		)
@@ -11979,7 +12337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 117.8052 259.08 0)
 			(effects
 				(font
@@ -12006,6 +12364,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 116.84 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "873b630c-10ef-42cc-9621-fbc2daa8100b")
 		)
@@ -12026,9 +12392,9 @@
 		(at 162.56 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "58cefc4d-ddac-4069-aa10-87088e043a6b")
 		(property "Reference" "TP15"
 			(at 154.432 110.744 90)
@@ -12072,6 +12438,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12207,6 +12581,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23352"
+			(at 368.3 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fd38b33b-088c-4665-95d3-fcebd140616f")
 		)
@@ -12227,9 +12609,9 @@
 		(at 236.22 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5c4297eb-178e-47ac-896a-7c443d693d87")
 		(property "Reference" "TP21"
@@ -12278,6 +12660,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 236.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "774771d9-fafc-498b-aff3-9a9106685f2e")
 		)
@@ -12295,9 +12685,9 @@
 		(at 162.56 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5ceeaf72-faee-4090-90a5-650deffd0f34")
 		(property "Reference" "TP8"
 			(at 154.432 53.594 90)
@@ -12341,6 +12731,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 162.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12474,6 +12872,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C25530"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12613,6 +13019,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2908614"
+			(at 273.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "90dbc1d8-846c-48f2-855a-9a59e7f467b6")
 		)
@@ -12708,9 +13122,9 @@
 		(at 265.43 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "67b6e935-e192-40e2-bf7d-a11979b041dd")
 		(property "Reference" "TP3"
 			(at 257.302 51.054 90)
@@ -12756,6 +13170,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 265.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "74df4edd-771c-4e66-9cd6-c5854ac2199c")
 		)
@@ -12773,9 +13195,9 @@
 		(at 162.56 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "682528d4-73fc-4ae2-9328-b27078233104")
 		(property "Reference" "TP11"
 			(at 154.432 78.994 90)
@@ -12821,6 +13243,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e3964f99-b8bb-47ad-99ca-cb13ba49c35f")
 		)
@@ -12852,7 +13282,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "2N7002"
 			(at 387.35 129.5399 0)
 			(effects
 				(font
@@ -12913,6 +13343,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C8545"
+			(at 381 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12987,6 +13425,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C7429724"
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "29"
@@ -13102,9 +13548,9 @@
 		(at 334.01 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "725c50de-0c32-44cb-85e2-c0be2a23c65a")
 		(property "Reference" "TP20"
@@ -13151,6 +13597,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 334.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13219,6 +13673,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 33.02 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aa5f3634-86c7-4e58-bb09-4219f2a854a5")
 		)
@@ -13241,7 +13703,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "75b39b87-b959-43b7-9414-770b56c56700")
 		(property "Reference" "H2"
@@ -13262,7 +13724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 24.13 134.62 0)
 			(effects
 				(font
@@ -13287,6 +13749,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 24.13 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -13351,6 +13821,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C23352"
+			(at 317.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13423,6 +13901,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25530"
+			(at 233.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ba928ee3-4c11-479d-a5a9-27421d71b26c")
 		)
@@ -13491,6 +13977,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C23352"
+			(at 279.4 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13923,7 +14417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "2N7002"
 			(at 354.33 231.1399 0)
 			(effects
 				(font
@@ -13984,6 +14478,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C8545"
+			(at 347.98 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14075,9 +14577,9 @@
 		(at 162.56 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8f064f0a-b51d-4277-a7c3-2b3294c6bb5d")
 		(property "Reference" "TP13"
 			(at 154.432 84.074 90)
@@ -14123,6 +14625,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "adea4eec-d60e-4858-af6a-3dd33800249a")
 		)
@@ -14162,7 +14672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 131.7752 259.08 0)
 			(effects
 				(font
@@ -14189,6 +14699,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 130.81 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "05e91585-1d23-4abb-9da1-c9af1307e0c3")
 		)
@@ -14210,7 +14728,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "90b521c5-c1a8-4941-9d37-20092e72318d")
@@ -14258,6 +14776,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C7429641"
+			(at 337.82 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14359,7 +14885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 6.3V"
+		(property "Value" "10uF 10V"
 			(at 320.802 132.334 0)
 			(effects
 				(font
@@ -14368,7 +14894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 321.0052 133.35 0)
 			(effects
 				(font
@@ -14393,6 +14919,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 320.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14495,7 +15029,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "2N7002"
 			(at 334.01 237.4899 0)
 			(effects
 				(font
@@ -14558,6 +15092,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8545"
+			(at 327.66 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6f8b3658-aa5d-499e-908d-307cb3d70f40")
 		)
@@ -14581,9 +15123,9 @@
 		(at 284.48 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9adb2258-75e4-474a-ade6-e11a87623edd")
 		(property "Reference" "TP18"
 			(at 276.352 115.824 90)
@@ -14627,6 +15169,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 284.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14726,7 +15276,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "2N7002"
 			(at 392.43 231.1399 0)
 			(effects
 				(font
@@ -14789,6 +15339,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8545"
+			(at 386.08 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ae3783d6-a7c7-4446-9ce3-69f64e8cfdd8")
 		)
@@ -14826,7 +15384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "2N7002"
 			(at 283.21 237.4899 0)
 			(effects
 				(font
@@ -14889,6 +15447,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8545"
+			(at 276.86 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8ee03853-65c0-4cce-afcb-e4e0ecf19146")
 		)
@@ -14914,7 +15480,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9dbc87e8-cbff-4b61-beb0-38fc21e679f6")
 		(property "Reference" "H3"
@@ -14935,7 +15501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 24.13 140.97 0)
 			(effects
 				(font
@@ -14962,6 +15528,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 24.13 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "tmc2240-breakout"
 				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
@@ -14977,7 +15551,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2e29e5e-37d5-47a8-93b2-49983fe59925")
@@ -15024,6 +15598,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C60485"
+			(at 223.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15160,6 +15742,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C80598"
+			(at 302.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "d438ebc1-84e5-45da-8c7e-dd8e0bab32fa")
 		)
@@ -15183,9 +15773,9 @@
 		(at 162.56 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "aacdcff6-847b-4d5b-8965-cddee613800a")
 		(property "Reference" "TP16"
 			(at 154.432 113.284 90)
@@ -15229,6 +15819,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15382,7 +15980,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aeb97a2a-b6ff-4c79-b8e3-58db32ab9d16")
 		(property "Reference" "H4"
@@ -15403,7 +16001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 24.13 147.32 0)
 			(effects
 				(font
@@ -15428,6 +16026,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 24.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -15558,6 +16164,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C23352"
+			(at 330.2 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15734,7 +16348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 61.9252 259.08 0)
 			(effects
 				(font
@@ -15759,6 +16373,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 60.96 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15848,7 +16470,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b38168c4-c9c8-4d5d-a2f4-e54de8d7d8e0")
@@ -15895,6 +16517,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "12"
@@ -16045,7 +16675,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 350.52 218.44 0)
 			(effects
 				(font
@@ -16079,6 +16709,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C2297"
+			(at 350.52 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16124,7 +16762,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 388.62 218.44 0)
 			(effects
 				(font
@@ -16158,6 +16796,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C84256"
+			(at 388.62 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16230,6 +16876,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23352"
+			(at 379.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7c8260a8-8647-4beb-9aaa-80c34764440c")
 		)
@@ -16298,6 +16952,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C23352"
+			(at 365.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16369,6 +17031,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C7429724"
+			(at 146.05 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "29"
@@ -16616,9 +17286,9 @@
 		(at 265.43 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c5359c10-a45c-4bf5-8081-09c683ab62ec")
 		(property "Reference" "TP1"
 			(at 257.302 45.974 90)
@@ -16664,6 +17334,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 265.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bfcbe48a-4101-466d-a687-a769860cd698")
 		)
@@ -16695,7 +17373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "2N7002"
 			(at 303.53 231.1399 0)
 			(effects
 				(font
@@ -16758,6 +17436,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8545"
+			(at 297.18 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c5cfcbc9-2688-4277-98a5-5734a7e6271f")
 		)
@@ -16781,9 +17467,9 @@
 		(at 265.3906 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cb2b501e-77a9-4cb9-9206-0e715f2e46fc")
 		(property "Reference" "TP4"
 			(at 257.2626 53.594 90)
@@ -16827,6 +17513,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 265.3906 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17226,6 +17920,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23352"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8746b1d6-e103-4e22-8c7c-fff7f496a649")
 		)
@@ -17312,9 +18014,9 @@
 		(at 162.5521 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e45bbe7b-8857-4381-8975-acfd366c5feb")
 		(property "Reference" "TP17"
 			(at 154.4241 119.634 90)
@@ -17358,6 +18060,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 162.5521 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17493,6 +18203,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 388.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "427cf494-900f-4f69-912e-573c6ec6821c")
 		)
@@ -17599,7 +18317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 240.03 91.7448 0)
 			(effects
 				(font
@@ -17624,6 +18342,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 236.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18122,7 +18848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "2N7002"
 			(at 392.43 180.3399 0)
 			(effects
 				(font
@@ -18183,6 +18909,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C8545"
+			(at 386.08 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18258,6 +18992,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 388.62 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e5463fd1-616f-4543-b7ee-c737503b5e4d")
 		)
@@ -18278,9 +19020,9 @@
 		(at 162.56 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f590687f-3b38-4ab1-81c3-2559d40cc554")
 		(property "Reference" "TP10"
 			(at 154.432 61.214 90)
@@ -18326,6 +19068,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9b8fd5e5-7fc5-4e73-b3fc-9c02fb0d483e")
 		)
@@ -18343,9 +19093,9 @@
 		(at 265.43 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f9a08258-b0a7-487f-b911-c88e0ebc957a")
 		(property "Reference" "TP2"
 			(at 257.302 48.514 90)
@@ -18391,6 +19141,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 265.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3337d1c4-12c1-418d-ac48-9b53c211a45e")
 		)
@@ -18422,7 +19180,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "WHITE"
 			(at 303.53 221.2974 90)
 			(effects
 				(font
@@ -18431,7 +19189,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 299.72 218.44 0)
 			(effects
 				(font
@@ -18465,6 +19223,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C34499"
+			(at 299.72 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18535,6 +19301,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 299.72 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
