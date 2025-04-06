@@ -5,537 +5,6 @@
 	(uuid "e2ca709b-5c09-4065-b04d-625c9f3162ce")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x05_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_Pin_1_1"
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -883,6 +352,493 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x05"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4572,19 +4528,9 @@
 		)
 		(uuid "b01c2d09-5b93-4ee7-8ead-9c2801eb9a6c")
 	)
-	(text "TODO: add separate footprint for straight up JST-XH and support both"
+	(text "Design Note:\nBreaking resistor from Eval kit,\nSwap according to motors"
 		(exclude_from_sim no)
-		(at 263.652 37.846 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b1c1de7a-f365-46ac-8aec-5f29e44acc9b")
-	)
-	(text "TODO: set OV breaking resistor"
-		(exclude_from_sim no)
-		(at 369.062 143.002 0)
+		(at 367.792 110.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4615,15 +4561,16 @@
 		)
 		(uuid "bdb62a56-0d26-48c8-be1f-c2536debd3fd")
 	)
-	(text "TODO: GND in motor conn?"
+	(text "Design Note:\nStacked footprints for \nstraight and angled JST-XH"
 		(exclude_from_sim no)
-		(at 264.16 32.512 0)
+		(at 268.732 32.004 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "c78238ac-b43b-4460-a66d-ee008347752f")
+		(uuid "ce850e16-f89b-47cf-94dd-4a1d7c532b10")
 	)
 	(text "Decoupling caps"
 		(exclude_from_sim no)
@@ -4649,10 +4596,28 @@
 		(uuid "edb47216-9c3e-472c-be13-7789e9a401e1")
 	)
 	(junction
+		(at 267.97 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02751e69-2e21-4002-a8ad-1b08550f8caf")
+	)
+	(junction
 		(at 119.38 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d6768f5-835d-4291-a9e2-67f04260237b")
+	)
+	(junction
+		(at 267.97 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1db440d9-73cc-46ed-9189-2a7b7c4bbc8a")
+	)
+	(junction
+		(at 267.97 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a8833a5-332e-4fc6-bd13-ea62f89bcb1c")
 	)
 	(junction
 		(at 162.56 87.63)
@@ -4685,10 +4650,22 @@
 		(uuid "31767d72-a81f-469f-80cf-09de6e4d2064")
 	)
 	(junction
+		(at 267.97 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31971f2f-3ddc-4f39-aa85-180b9455074e")
+	)
+	(junction
 		(at 101.6 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32624246-9749-41de-af2a-471e4f66d033")
+	)
+	(junction
+		(at 267.97 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b0b404a-477e-448b-9b16-04f6550ab885")
 	)
 	(junction
 		(at 60.96 250.19)
@@ -4731,6 +4708,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "610fc90b-fb66-4846-bc37-7f4731ff3c47")
+	)
+	(junction
+		(at 267.97 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "621c7d64-c4a7-4423-ba41-d347a0d6be09")
 	)
 	(junction
 		(at 133.35 232.41)
@@ -4805,6 +4788,12 @@
 		(uuid "94f78546-a6ae-4516-a003-53ab1a00ec42")
 	)
 	(junction
+		(at 267.97 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98fe507b-1e03-40d4-9fd9-fa5d677f5f54")
+	)
+	(junction
 		(at 162.56 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4835,6 +4824,12 @@
 		(uuid "a5e6b5a1-e2d6-44b1-bc19-2055c3f7814f")
 	)
 	(junction
+		(at 267.97 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a94b890a-bb1a-48de-a830-feb93a258247")
+	)
+	(junction
 		(at 284.48 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4845,6 +4840,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac1c3735-c237-4475-bd1c-aa3a69952e98")
+	)
+	(junction
+		(at 267.97 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b273d3e1-f853-4920-ad76-3bc89ebd9cbe")
 	)
 	(junction
 		(at 224.79 64.77)
@@ -4875,6 +4876,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c56d465a-1a70-4b79-9f66-e2d494a91bf4")
+	)
+	(junction
+		(at 267.97 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c582ec5f-88db-4b95-a288-ed479b795569")
 	)
 	(junction
 		(at 162.56 59.69)
@@ -4917,6 +4924,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecc67274-cfc0-4c64-8b82-9b19af9574b4")
+	)
+	(junction
+		(at 267.97 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ede8563a-af03-47e8-9dda-e8417180c02e")
 	)
 	(junction
 		(at 242.57 69.85)
@@ -4991,6 +5004,16 @@
 			(type default)
 		)
 		(uuid "02353a57-2410-4818-8dea-e8a29c0f73ac")
+	)
+	(wire
+		(pts
+			(xy 267.97 52.07) (xy 283.21 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033a4b1a-05b7-491a-a5f5-0567cefc569e")
 	)
 	(wire
 		(pts
@@ -5231,6 +5254,16 @@
 			(type default)
 		)
 		(uuid "24d3fb8f-6a32-4cbc-ad80-5e4df400652d")
+	)
+	(wire
+		(pts
+			(xy 265.43 41.91) (xy 267.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2707e685-4634-426b-ad5c-2ba6c50eb8d7")
 	)
 	(wire
 		(pts
@@ -5614,6 +5647,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 41.91) (xy 283.21 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d10c780-1066-4421-9861-da48ecb405ea")
+	)
+	(wire
+		(pts
 			(xy 110.49 85.09) (xy 110.49 88.9)
 		)
 		(stroke
@@ -5631,6 +5674,16 @@
 			(type default)
 		)
 		(uuid "4eb66872-b243-4ae3-b2cd-7528a955904f")
+	)
+	(wire
+		(pts
+			(xy 256.54 36.83) (xy 256.54 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5081f40d-4d06-4ed0-afc9-6bd53c019f8c")
 	)
 	(wire
 		(pts
@@ -5781,6 +5834,16 @@
 			(type default)
 		)
 		(uuid "5b253ee6-6863-44bf-96ae-763d98019869")
+	)
+	(wire
+		(pts
+			(xy 267.97 62.23) (xy 283.21 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8ac4d1-d529-445a-98a9-a908874d639d")
 	)
 	(wire
 		(pts
@@ -6174,6 +6237,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 44.45) (xy 283.21 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87deba94-f9f7-4190-90cb-042e7fd4f311")
+	)
+	(wire
+		(pts
 			(xy 143.51 252.73) (xy 146.05 252.73)
 		)
 		(stroke
@@ -6424,6 +6497,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 49.53) (xy 283.21 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69165b1-aa2d-4e5d-b20a-3e99a7ef3ff7")
+	)
+	(wire
+		(pts
 			(xy 297.18 185.42) (xy 309.88 185.42)
 		)
 		(stroke
@@ -6441,6 +6524,16 @@
 			(type default)
 		)
 		(uuid "a728df38-5352-4690-a154-6b5ffc41cd9e")
+	)
+	(wire
+		(pts
+			(xy 267.97 72.39) (xy 283.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7478cc3-104d-4d57-85ba-6f6786f99b64")
 	)
 	(wire
 		(pts
@@ -6571,6 +6664,16 @@
 			(type default)
 		)
 		(uuid "bad2e309-b465-4f3c-b1ab-90fffdf5e582")
+	)
+	(wire
+		(pts
+			(xy 267.97 67.31) (xy 283.21 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae402d1-d372-4dec-9e2b-88de3121d4b5")
 	)
 	(wire
 		(pts
@@ -6714,6 +6817,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 54.61) (xy 283.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccfde695-bf5d-4f05-ac21-ec41fab86067")
+	)
+	(wire
+		(pts
 			(xy 66.04 72.39) (xy 85.09 72.39)
 		)
 		(stroke
@@ -6804,6 +6917,26 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 36.83) (xy 256.54 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6be4fb0-a600-4885-95c2-f45d4c1992aa")
+	)
+	(wire
+		(pts
+			(xy 267.97 64.77) (xy 283.21 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7afd742-9220-40c9-8921-4e3299381aa2")
+	)
+	(wire
+		(pts
 			(xy 143.51 250.19) (xy 143.51 252.73)
 		)
 		(stroke
@@ -6821,6 +6954,16 @@
 			(type default)
 		)
 		(uuid "d9cb1c17-3d9b-43fd-9509-bd3e1ef40912")
+	)
+	(wire
+		(pts
+			(xy 267.97 46.99) (xy 283.21 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9fa1385-0f1b-4584-8bab-935420a5be22")
 	)
 	(wire
 		(pts
@@ -7084,6 +7227,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 69.85) (xy 283.21 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f229b05c-888e-470c-8844-d15bad3a9a16")
+	)
+	(wire
+		(pts
 			(xy 82.55 114.3) (xy 162.56 114.3)
 		)
 		(stroke
@@ -7091,6 +7244,16 @@
 			(type default)
 		)
 		(uuid "f37fa5f5-98c5-4855-b850-8f42fd134413")
+	)
+	(wire
+		(pts
+			(xy 267.97 44.45) (xy 261.62 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e1d279-5d2e-42bb-8ee0-b365f541de02")
 	)
 	(wire
 		(pts
@@ -7121,6 +7284,16 @@
 			(type default)
 		)
 		(uuid "f80c7a17-5d72-468a-9b97-12c1169f0b37")
+	)
+	(wire
+		(pts
+			(xy 261.62 44.45) (xy 261.62 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f951ae2b-d89a-4301-b5e3-472df17feab5")
 	)
 	(wire
 		(pts
@@ -7928,6 +8101,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8006,6 +8180,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8051,7 +8226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 369.062 77.47 90)
 			(effects
 				(font
@@ -8084,6 +8259,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8234,6 +8410,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8475,7 +8652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.8k"
 			(at 386.08 118.1099 0)
 			(effects
 				(font
@@ -8484,7 +8661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 381.762 116.84 90)
 			(effects
 				(font
@@ -8511,12 +8688,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137011"
 			(at 383.54 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8595,6 +8773,72 @@
 			(project "tmc2240-breakout"
 				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14a167b6-1c7a-414e-8935-77a27b0dba2a")
+		(property "Reference" "#PWR062"
+			(at 256.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1aa8720-1eda-4163-93d9-dadedde626bb")
+		)
+		(instances
+			(project "tmc2240-breakout"
+				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -8685,7 +8929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33"
 			(at 353.06 210.8199 0)
 			(effects
 				(font
@@ -8694,7 +8938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 348.742 209.55 90)
 			(effects
 				(font
@@ -8721,12 +8965,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25105"
 			(at 350.52 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8870,6 +9115,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9030,6 +9276,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9055,7 +9302,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1bfbe0bb-c1c4-4051-aa42-ff608d49c50d")
 		(property "Reference" "J3"
 			(at 349.25 58.4199 0)
@@ -9109,6 +9356,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9220,7 +9468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 99.822 74.93 90)
 			(effects
 				(font
@@ -9253,6 +9501,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9369,7 +9618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 391.922 38.1 90)
 			(effects
 				(font
@@ -9402,6 +9651,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9479,6 +9729,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9556,6 +9807,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9727,6 +9979,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9807,6 +10060,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9843,7 +10097,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33"
 			(at 340.36 160.0199 0)
 			(effects
 				(font
@@ -9852,7 +10106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 336.042 158.75 90)
 			(effects
 				(font
@@ -9879,12 +10133,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25105"
 			(at 337.82 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9963,6 +10218,95 @@
 			(project "tmc2240-breakout"
 				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 288.29 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "31acecfa-b0be-4ea2-a508-6c8a428fb503")
+		(property "Reference" "J7"
+			(at 290.83 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 290.83 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 288.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C125320"
+			(at 288.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30fd96c8-245c-4f0d-aa0e-690e982d4393")
+		)
+		(pin "1"
+			(uuid "6dd93417-4bc3-40d4-922d-7913ef1a6aff")
+		)
+		(pin "3"
+			(uuid "78eda595-206e-4b5c-b44c-583def6e06fb")
+		)
+		(pin "4"
+			(uuid "06e68269-7182-4d3d-95d4-100a22f32217")
+		)
+		(pin "5"
+			(uuid "2dcebb35-beb2-4efd-8f70-2fcad523e1a6")
+		)
+		(instances
+			(project "tmc2240-breakout"
+				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10055,6 +10399,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10102,7 +10447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 47.9552 259.08 0)
 			(effects
 				(font
@@ -10129,12 +10474,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C72523"
 			(at 46.99 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10385,7 +10731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 223.012 74.93 90)
 			(effects
 				(font
@@ -10418,6 +10764,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10529,7 +10876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 117.602 74.93 90)
 			(effects
 				(font
@@ -10562,6 +10909,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10705,6 +11053,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10750,7 +11099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 377.952 38.1 90)
 			(effects
 				(font
@@ -10783,6 +11132,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11092,6 +11442,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11173,88 +11524,6 @@
 			(project "tmc2240-breakout"
 				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 273.05 49.53 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "447f2900-c598-434e-a548-0f139d49bbd6")
-		(property "Reference" "J1"
-			(at 272.415 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 272.415 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 273.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5160921"
-			(at 273.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63a8bf58-5ac4-4907-bddc-016b8cf5ab51")
-		)
-		(pin "2"
-			(uuid "5cde7b15-9405-4f70-bee8-db396c3209aa")
-		)
-		(pin "3"
-			(uuid "b884a25a-dec8-410c-bfc7-b842aa69554e")
-		)
-		(pin "4"
-			(uuid "b4f32df9-6a40-4dd3-84e1-c510174f26f6")
-		)
-		(instances
-			(project "tmc2240-breakout"
-				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11420,7 +11689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 363.982 38.1 90)
 			(effects
 				(font
@@ -11453,6 +11722,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11630,7 +11900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 108.712 74.93 90)
 			(effects
 				(font
@@ -11663,6 +11933,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11848,7 +12119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 383.032 68.58 90)
 			(effects
 				(font
@@ -11881,6 +12152,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11986,6 +12258,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12001,6 +12274,95 @@
 			(project "tmc2240-breakout"
 				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
 					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 273.05 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f762f9b-ff16-4bdc-80c1-ef8838cede4b")
+		(property "Reference" "J2"
+			(at 275.59 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 275.59 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 273.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5175258"
+			(at 273.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e19dcf67-1716-489b-a67c-821c0f35b6d7")
+		)
+		(pin "1"
+			(uuid "3131de02-1b97-46d4-85d6-2b3c87e406cd")
+		)
+		(pin "3"
+			(uuid "8c0e9c69-6218-4f77-822e-ba77d4299a28")
+		)
+		(pin "4"
+			(uuid "0e59cc5b-4811-4b0a-a1e9-cc8716326026")
+		)
+		(pin "5"
+			(uuid "f10ba54c-fed4-4f33-a23d-8d01ca367e9c")
+		)
+		(instances
+			(project ""
+				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12142,6 +12504,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12260,7 +12623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.792 74.93 90)
 			(effects
 				(font
@@ -12293,6 +12656,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12370,6 +12734,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12554,7 +12919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 366.522 158.75 90)
 			(effects
 				(font
@@ -12587,6 +12952,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12847,7 +13213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 126.492 74.93 90)
 			(effects
 				(font
@@ -12880,6 +13246,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12958,94 +13325,6 @@
 			(project "tmc2240-breakout"
 				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 273.05 67.31 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6402b621-fb68-4c74-b02d-2ab13d31eaf6")
-		(property "Reference" "J2"
-			(at 274.32 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 274.32 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 273.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2908614"
-			(at 273.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "90dbc1d8-846c-48f2-855a-9a59e7f467b6")
-		)
-		(pin "1"
-			(uuid "cdbc7480-44a2-4338-90a7-a8e6856b77d6")
-		)
-		(pin "4"
-			(uuid "d5909aef-160c-4d20-8c43-b03ab6d10517")
-		)
-		(pin "5"
-			(uuid "e1d987bc-4b96-4831-960c-aff4a4e0e936")
-		)
-		(pin "2"
-			(uuid "9e660337-9c2c-47cc-af15-0093c3de972d")
-		)
-		(instances
-			(project ""
-				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -13351,6 +13630,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13433,6 +13713,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "29"
@@ -13646,7 +13927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 33.9852 259.08 0)
 			(effects
 				(font
@@ -13673,12 +13954,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C72523"
 			(at 33.02 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13796,7 +14078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 315.722 158.75 90)
 			(effects
 				(font
@@ -13829,6 +14111,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13874,7 +14157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.902 74.93 90)
 			(effects
 				(font
@@ -13907,6 +14190,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13952,7 +14236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 277.622 209.55 90)
 			(effects
 				(font
@@ -13985,6 +14269,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14486,6 +14771,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14705,6 +14991,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14730,7 +15017,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "90b521c5-c1a8-4941-9d37-20092e72318d")
 		(property "Reference" "J4"
 			(at 335.28 67.3099 0)
@@ -14784,6 +15071,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14927,6 +15215,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15098,6 +15387,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15345,6 +15635,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15453,6 +15744,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15573,7 +15865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 221.742 115.57 90)
 			(effects
 				(font
@@ -15606,6 +15898,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15748,6 +16041,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -15836,6 +16130,72 @@
 			(project "tmc2240-breakout"
 				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
 					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 265.43 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac0f5c53-e30a-414a-b72a-b60f90dca1e9")
+		(property "Reference" "#PWR061"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VMOTOR"
+			(at 265.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 265.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "017b8212-7cc8-4fa0-8e34-ef8ad8a889c8")
+		)
+		(instances
+			(project "tmc2240-breakout"
+				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -16139,7 +16499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 328.422 209.55 90)
 			(effects
 				(font
@@ -16172,6 +16532,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16381,6 +16742,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16472,7 +16834,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b38168c4-c9c8-4d5d-a2f4-e54de8d7d8e0")
 		(property "Reference" "J5"
 			(at 58.42 63.4999 0)
@@ -16717,6 +17079,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16804,6 +17167,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16849,7 +17213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 377.952 46.99 90)
 			(effects
 				(font
@@ -16882,6 +17246,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16927,7 +17292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 363.982 46.99 90)
 			(effects
 				(font
@@ -16960,6 +17325,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17039,6 +17405,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "29"
@@ -17442,6 +17809,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17893,7 +18261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 108.712 92.71 90)
 			(effects
 				(font
@@ -17926,6 +18294,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18004,6 +18373,98 @@
 			(project "2240-breakout"
 				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 273.05 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3c9433b-a887-4e28-a157-5f43661b932c")
+		(property "Reference" "J1"
+			(at 275.59 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 275.59 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 273.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C442330"
+			(at 273.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf4b9f40-7d23-4abe-9cc2-22ecc5488d21")
+		)
+		(pin "1"
+			(uuid "1295ab05-bac6-4e32-9662-079f0e75484b")
+		)
+		(pin "3"
+			(uuid "8a9952d1-5f51-4866-8155-3240e20afa25")
+		)
+		(pin "4"
+			(uuid "b48a1f87-5cf9-4b2a-a914-67358ac5149b")
+		)
+		(pin "5"
+			(uuid "fce77717-4cd0-4771-b71c-296d7293f8f0")
+		)
+		(pin "6"
+			(uuid "79758c88-d9fa-48ea-8a11-3fc80920dcfa")
+		)
+		(instances
+			(project ""
+				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -18167,7 +18628,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33"
 			(at 391.16 160.0199 0)
 			(effects
 				(font
@@ -18176,7 +18637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 386.842 158.75 90)
 			(effects
 				(font
@@ -18203,12 +18664,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25105"
 			(at 388.62 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18350,6 +18812,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18917,6 +19380,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18932,6 +19396,98 @@
 			(project "tmc2240-breakout"
 				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
 					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 288.29 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f34d4530-b316-44ff-8218-0e694dd75d08")
+		(property "Reference" "J6"
+			(at 290.83 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 290.83 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 288.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C161873"
+			(at 288.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ab1a964-f31f-4cec-b425-1e8581caf934")
+		)
+		(pin "1"
+			(uuid "86aa4372-7cc8-4b97-983a-6c0924c9ebc2")
+		)
+		(pin "3"
+			(uuid "b4b12dfc-b287-4dc1-b590-a821c7e8a6e7")
+		)
+		(pin "4"
+			(uuid "90b35eac-91aa-4bf9-9034-68c9f6862832")
+		)
+		(pin "5"
+			(uuid "5e8d3e21-6810-4fde-9d14-5e1c4a9575a4")
+		)
+		(pin "6"
+			(uuid "e891425c-0aea-4286-8ec1-691da563f49d")
+		)
+		(instances
+			(project "tmc2240-breakout"
+				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -18956,7 +19512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33"
 			(at 391.16 210.8199 0)
 			(effects
 				(font
@@ -18965,7 +19521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 386.842 209.55 90)
 			(effects
 				(font
@@ -18992,12 +19548,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25105"
 			(at 388.62 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19231,6 +19788,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19259,7 +19817,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdd4b921-9e87-436f-88b9-b2a496774d67")
 		(property "Reference" "R20"
-			(at 302.26 208.2799 0)
+			(at 302.26 207.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19267,8 +19825,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 302.26 210.8199 0)
+		(property "Value" "22"
+			(at 302.26 209.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19276,7 +19834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 297.942 209.55 90)
 			(effects
 				(font
@@ -19303,12 +19861,14 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 299.72 209.55 0)
+		(property "LCSC" "C25092"
+			(at 302.26 212.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "2"
