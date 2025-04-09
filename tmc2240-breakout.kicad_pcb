@@ -23056,6 +23056,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "PCB3D_BR_BOARD"
+		(at 176 119.96 0)
+		(layer "User.1")
+		(uuid "6380326c-52a3-48b0-885c-0a2f15990d58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PCB3D_TL_BOARD"
+		(at 116 59.96 0)
+		(layer "User.1")
+		(uuid "6ccd7e02-ae78-4a8c-ab81-f6ab39c82b2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 143.5 92.5)
 		(end 142.75 93.25)
