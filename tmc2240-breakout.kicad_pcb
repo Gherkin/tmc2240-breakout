@@ -23092,12 +23092,28 @@
 		)
 	)
 	(segment
+		(start 130.75 76.75)
+		(end 130 76)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "094d7f91-99e9-4dd6-b922-f0ab4f6dc491")
+	)
+	(segment
 		(start 143.5 92.5)
 		(end 142.75 93.25)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 0)
 		(uuid "277257dd-d00b-42a5-96b5-88571cc6e048")
+	)
+	(segment
+		(start 130 76)
+		(end 130 75.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "3d9f9b03-887f-4075-8b38-cf93e39c6f6a")
 	)
 	(segment
 		(start 143 87)
