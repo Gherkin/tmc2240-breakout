@@ -4533,6 +4533,17 @@
 		)
 		(uuid "41e0df65-2713-4f6d-a152-fa9cb6bb28ab")
 	)
+	(text "Design Note:\nDIAG0/1 used as default OD"
+		(exclude_from_sim no)
+		(at 105.664 112.522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "515a683c-3b38-4981-8d0b-9cb3cd3373ad")
+	)
 	(text "1.8 V LDO"
 		(exclude_from_sim no)
 		(at 301.752 100.33 0)
@@ -4590,6 +4601,17 @@
 		)
 		(uuid "bdb62a56-0d26-48c8-be1f-c2536debd3fd")
 	)
+	(text "Design Note:\nIREF as TMC2240-eval"
+		(exclude_from_sim no)
+		(at 134.112 126.746 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf0375b2-7ace-423d-a302-1e22c092eb79")
+	)
 	(text "Design Note:\nStacked footprints for \nstraight and angled JST-XH"
 		(exclude_from_sim no)
 		(at 268.732 32.004 0)
@@ -4643,6 +4665,12 @@
 		(uuid "1317cd9b-f43f-4c1a-99b6-5db9f30517d6")
 	)
 	(junction
+		(at 355.6 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14c678e0-f647-4585-964c-f0c33d9d1409")
+	)
+	(junction
 		(at 162.56 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4653,6 +4681,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1db440d9-73cc-46ed-9189-2a7b7c4bbc8a")
+	)
+	(junction
+		(at 304.8 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24b9a205-6639-4507-b92f-1bd7b4580a84")
 	)
 	(junction
 		(at 267.97 41.91)
@@ -4998,6 +5032,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 185.42) (xy 360.68 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ba29e1-a9b7-4b02-8650-7ac341e04310")
+	)
+	(wire
+		(pts
 			(xy 370.84 69.85) (xy 370.84 73.66)
 		)
 		(stroke
@@ -5078,7 +5122,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 185.42) (xy 360.68 185.42)
+			(xy 347.98 185.42) (xy 355.6 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5115,6 +5159,16 @@
 			(type default)
 		)
 		(uuid "0cf85327-4a1b-499c-97f8-bbfa1b9e6ae0")
+	)
+	(wire
+		(pts
+			(xy 304.8 162.56) (xy 304.8 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dbe10d1-5fd0-40d4-b82c-31caf9a9c124")
 	)
 	(wire
 		(pts
@@ -5165,6 +5219,16 @@
 			(type default)
 		)
 		(uuid "106b96f8-e18f-4515-b09b-2b983a685ea6")
+	)
+	(wire
+		(pts
+			(xy 355.6 162.56) (xy 355.6 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127c5c65-56d4-49bf-ac23-926251084edc")
 	)
 	(wire
 		(pts
@@ -5558,6 +5622,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 185.42) (xy 309.88 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8e4f74-c854-4fd1-bfb3-ae3e0205304f")
+	)
+	(wire
+		(pts
 			(xy 135.89 232.41) (xy 135.89 247.65)
 		)
 		(stroke
@@ -5715,6 +5789,16 @@
 			(type default)
 		)
 		(uuid "4eb66872-b243-4ae3-b2cd-7528a955904f")
+	)
+	(wire
+		(pts
+			(xy 304.8 153.67) (xy 304.8 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f276372-ed55-4caa-8967-549c022b0c67")
 	)
 	(wire
 		(pts
@@ -6598,7 +6682,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 185.42) (xy 309.88 185.42)
+			(xy 297.18 185.42) (xy 304.8 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6985,6 +7069,16 @@
 			(type default)
 		)
 		(uuid "d607ff82-a8a4-40db-a906-7278dac0b8f7")
+	)
+	(wire
+		(pts
+			(xy 355.6 153.67) (xy 355.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d662cfcb-ebff-4419-8f57-8e857e518bfb")
 	)
 	(wire
 		(pts
@@ -8419,6 +8513,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 304.8 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04ab6f00-47d4-4e5f-bb62-4d71e9153a82")
+		(property "Reference" "#PWR068"
+			(at 304.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 304.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 304.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d03aed1a-0b97-43dc-af6b-5eb1fb96f8bf")
+		)
+		(instances
+			(project "tmc2240-breakout"
+				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 162.56 52.07 90)
 		(unit 1)
@@ -8486,6 +8646,82 @@
 			(project "tmc2240-breakout"
 				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
 					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 246.38 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "07472950-d014-4004-b4ab-bce5d44cd5f8")
+		(property "Reference" "TP22"
+			(at 248.92 116.0779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 248.92 118.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 251.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 246.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 246.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7a476e5-899e-45e2-97b1-d92a208ec586")
+		)
+		(instances
+			(project "tmc2240-breakout"
+				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -8914,6 +9150,85 @@
 			(project "tmc2240-breakout"
 				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 355.6 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11e195e9-eaa5-4202-b054-1beaf7f5b560")
+		(property "Reference" "R29"
+			(at 358.14 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24k"
+			(at 358.14 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 353.822 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 355.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23352"
+			(at 355.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c503cc98-4727-4234-a881-d632e8b81a08")
+		)
+		(pin "1"
+			(uuid "7424f366-678d-4f9e-81c1-53330ef2a9c2")
+		)
+		(instances
+			(project "tmc2240-breakout"
+				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -13793,6 +14108,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 355.6 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d7c5678-6755-480c-ab71-edec5a60a5c6")
+		(property "Reference" "#PWR069"
+			(at 355.6 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 355.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 355.6 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bb6ab50-792b-48e9-8a10-742528a62de4")
+		)
+		(instances
+			(project "tmc2240-breakout"
+				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "TMC2240ATJ+_1")
 		(lib_id "TMC2240ATJ:TMC2240ATJ+")
 		(at 163.83 49.53 0)
@@ -17100,6 +17481,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 304.8 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b301ed83-85e2-4428-9797-0c4249965d27")
+		(property "Reference" "R28"
+			(at 307.34 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24k"
+			(at 307.34 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 303.022 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 304.8 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23352"
+			(at 304.8 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "492687c4-7b39-4d6e-a7b7-f91da08f33bb")
+		)
+		(pin "1"
+			(uuid "aa678187-3eef-46c0-854d-c278402049da")
+		)
+		(instances
+			(project "tmc2240-breakout"
+				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x17")
 		(at 27.94 63.5 0)
 		(mirror y)
@@ -20046,6 +20506,72 @@
 			(project ""
 				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4968d3b-26ed-4588-960e-d3f47c1cc6d0")
+		(property "Reference" "#PWR067"
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24862f09-6dc4-4102-93ab-9ac39875e026")
+		)
+		(instances
+			(project "tmc2240-breakout"
+				(path "/e2ca709b-5c09-4065-b04d-625c9f3162ce"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
