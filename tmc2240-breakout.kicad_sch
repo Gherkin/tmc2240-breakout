@@ -2689,14 +2689,14 @@
 				(pin input line
 					(at 55.88 -15.24 180)
 					(length 7.62)
-					(name "ENCA"
+					(name "ENCN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2725,14 +2725,14 @@
 				(pin input line
 					(at 55.88 -20.32 180)
 					(length 7.62)
-					(name "ENCN"
+					(name "ENCA"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7684,16 +7684,6 @@
 		)
 		(uuid "201b67c1-3283-4031-a77c-e9cf8a15ae09")
 	)
-	(label "ENCA"
-		(at 245.11 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "242a0b27-93fd-460f-a73d-5359368bd88b")
-	)
 	(label "DIAG1#"
 		(at 138.43 114.3 0)
 		(effects
@@ -7864,16 +7854,6 @@
 		)
 		(uuid "6dbbb4a2-8d8a-48e4-9de1-3c5b0cb74aa5")
 	)
-	(label "ENCN"
-		(at 245.11 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e5fe7d7-ef5d-4f35-b346-df1bcf2af1a7")
-	)
 	(label "DIAG1#"
 		(at 347.98 185.42 0)
 		(effects
@@ -7914,6 +7894,16 @@
 		)
 		(uuid "849de25a-54d0-4e9d-a88c-a46418448fd8")
 	)
+	(label "OV_D"
+		(at 383.54 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8501abcf-c3b9-4815-ba29-b2eac75c5f85")
+	)
 	(label "SPI_SDI"
 		(at 138.43 49.53 0)
 		(effects
@@ -7923,6 +7913,26 @@
 			(justify left bottom)
 		)
 		(uuid "8f63b4a0-5acf-47d7-8780-e239c4aaddeb")
+	)
+	(label "ENCA"
+		(at 245.11 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9aa6afcb-1876-4098-9898-cd26f94c67ca")
+	)
+	(label "ENCN"
+		(at 245.11 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b06ac69-637d-4486-ab88-936d4b604eca")
 	)
 	(label "UART_EN"
 		(at 44.45 68.58 180)
@@ -17708,7 +17718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ul_TMC2240ATJ-:21-0140_T3255&plus_5C_TRI"
+		(property "Footprint" "21-0140_T3255+5C_TRI"
 			(at 146.05 245.11 0)
 			(effects
 				(font
